@@ -11,7 +11,7 @@ const Intro = () => {
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
-          Salut, je m'appelle Ibi Ibrahim et j'ai commencé à utiliser les outils de developpement web tres tot dans ma vie.
+          Salut, je m'appelle <strong>Ibrahim</strong> et j'ai commencé à utiliser les outils de developpement web tres tot dans ma vie.
            J'ai passé la plupart de mes heures éveillées au cours de ces dernières années à concevoir, 
            programmer et exploiter des applications web.
         </p>
@@ -30,7 +30,7 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Address:
                 </span>
-                <span>Ave 11, New York, USA</span>
+                <span>Maroua, Extreme-Nord, Cameroun</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -98,11 +98,11 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="tokyo_tm_button" data-position="left">
+      {/*<div className="tokyo_tm_button" data-position="left">
         <a href="assets/img/cv/1.jpg" download>
           <span>Download CV</span>
         </a>
-      </div>
+      </div>*/}
     </Fragment>
   );
 };

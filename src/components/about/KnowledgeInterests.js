@@ -3,7 +3,7 @@ const knowledge = [
   { id: 2, text: "Bootstrap, TailwindCSS" },
   { id: 3, text: "React, , Laravel" },
   { id: 4, text: "CSS3, Sass" },
-  { id: 1, text: "Webpack, vite" },
+  { id: 1, text: "Webpack, Vite" },
 ];
 const interests = [
   { id: 4, text: "Site web personnalisé" },

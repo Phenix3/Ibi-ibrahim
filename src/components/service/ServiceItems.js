@@ -4,7 +4,7 @@ import { useContext } from "react";
 const services = [
   {
     id: 1,
-    name: "Conception et développement de sites web personnalisés",
+    name: "Conception et développement de site web",
     text: [
       "Je suis passionné par la conception et le développement de sites web personnalisés. Chaque projet est une occasion excitante de fusionner ma créativité avec mes compétences techniques. En collaborant étroitement avec mes clients, je transforme leurs idées en lignes de code, créant des sites web uniques qui captivent leur public cible. Mon approche artistique garantit que chaque élément du site reflète l'identité de l'entreprise, tout en offrant une expérience utilisateur exceptionnelle. Je m'engage à rester à la pointe de l'innovation technologique, en m'assurant que chaque site que je développe répond aux normes de développement et de sécurité les plus récentes.",
     ],
@@ -12,7 +12,7 @@ const services = [
   },
   {
     id: 2,
-    name: "Développement de site de commerce électronique",
+    name: "Développement de site de e-commerce",
     text: [
       "Je suis spécialisé dans le développement de sites de commerce électronique qui ouvrent de nouvelles portes à votre entreprise en ligne. Avec une expérience approfondie dans la création de plateformes de vente en ligne, je mets en place des boutiques virtuelles robustes et conviviales. Chaque étape du processus, de la conception des pages produits à l'intégration de systèmes de paiement sécurisés, est réalisée avec soin pour offrir aux clients une expérience d'achat fluide et agréable. Mon objectif est de transformer votre vision commerciale en une réalité virtuelle, en maximisant la visibilité de vos produits et en optimisant les conversions. Ensemble, nous créerons une destination en ligne qui se démarque dans le monde du commerce électronique."
     ],
@@ -20,7 +20,7 @@ const services = [
   },
   {
     id: 3,
-    name: "Refonte de site web",
+    name: "Refonte complete de site web",
     text: [
       "Votre site web a besoin d'un nouveau départ, mais vous ne savez pas par où commencer ? Ne vous inquiétez pas, c'est là que je brille. En tant qu'expert en refonte de sites web, je comprends les défis auxquels vous pourriez faire face : peut-être que votre site actuel ne reflète plus votre style, ou peut-être que la navigation est devenue un vrai casse-tête pour vos visiteurs.\n C'est là que je mets mon expertise à contribution. En travaillant main dans la main avec vous, je vais écouter vos besoins et vos préférences pour créer un plan sur mesure. Ensuite, avec un mélange de créativité et de compétences techniques, je vais transformer votre site en une expérience en ligne qui correspond parfaitement à vos intérêts et à ceux de vos visiteurs. Vous aurez un site qui vous ressemble, tout en étant convivial et engageant pour tous ceux qui le visitent. Oubliez les soucis, je suis là pour que vous puissiez briller en ligne tout en offrant une expérience fluide à vos visiteurs."
     ],
@@ -79,7 +79,7 @@ const ServiceItems = () => {
                     setServiceModal(service);
                   }}
                 >
-                  <span>Read More</span>
+                  <span>Lire la suite</span>
                 </a>
               </div>
               <a
