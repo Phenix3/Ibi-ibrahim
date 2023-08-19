@@ -20,8 +20,8 @@ const About = () => {
       </div>
       <Skills />
       <KnowledgeInterests />
-      <EducationExperience />
-      <Testimonials />
+      {/* <EducationExperience /> */}
+      {/*<Testimonials />*/}
     </SectionContainer>
   );
 };

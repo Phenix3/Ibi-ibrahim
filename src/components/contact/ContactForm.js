@@ -67,7 +67,7 @@ const ContactForm = () => {
                 value={name}
                 id="name"
                 type="text"
-                placeholder="Name"
+                placeholder="Nom"
               />
             </li>
             <li className="w-full mb-[30px] float-left">
@@ -92,7 +92,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="tokyo_tm_button" data-position="left">
-          <button type="submit">Send Message</button>
+          <button type="submit">Envoyer un message</button>
         </div>
         {/* If you want to change mail address to yours, please open modal.php and go to line 4 */}
       </form>

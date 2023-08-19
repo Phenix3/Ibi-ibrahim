@@ -3,15 +3,13 @@ const Map = () => {
     <div className="map_wrap w-full float-left clear-both h-auto mb-[50px]">
       <div className="mapouter">
         <div className="gmap_canvas">
-          <iframe
-            width="100%"
-            height={355}
-            id="gmap_canvas"
-            src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            frameBorder={0}
-            scrolling="no"
-            marginHeight={0}
-            marginWidth={0}
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.5989299364164!2d14.3410396741557!3d10.61049748952839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x111d9faa2cee032f%3A0x14d6050d60ae2a49!2sStudio%20Seldjam!5e0!3m2!1sfr!2scm!4v1692442043946!5m2!1sfr!2scm" 
+            width="600" 
+            height="450" 
+            style={{border: 0}} 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade" 
           />
           <a href="https://fmovies-online.net">fmovies</a>
           <br />

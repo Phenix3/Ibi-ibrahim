@@ -98,11 +98,11 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      {/*<div className="tokyo_tm_button" data-position="left">
-        <a href="assets/img/cv/1.jpg" download>
-          <span>Download CV</span>
+      <div className="tokyo_tm_button" data-position="left">
+        <a href="assets/cv_ibi.pdf" download>
+          <span>Mon CV</span>
         </a>
-      </div>*/}
+      </div>
     </Fragment>
   );
 };

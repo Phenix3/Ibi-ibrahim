@@ -8,7 +8,7 @@ const DetailsModal = () => {
     <ModalContainer nullValue={setPortfolioDetailsModal}>
       <div className="popup_details">
         <div className="top_image">
-          <img src="assets/img/thumbs/4-2.jpg" alt="image" />
+          <img src={portfolioDetailsModal.thumbnail} alt="image" />
           <div
             className="main"
             data-img-url={portfolioDetailsModal.thumbnail}
@@ -86,14 +86,15 @@ const DetailsModal = () => {
                 <div className="my_image relative">
                   <img
                     className="opacity-0 min-w-full"
-                    src="assets/img/thumbs/4-2.jpg"
+                    src={portfolioDetailsModal.thumbnail}
                     alt="image"
                   />
                   <div
                     className="main absolute inset-0 bg-no-repeat bg-center bg-cover"
-                    data-img-url="assets/img/portfolio/1.jpg"
+                    data-img-url={portfolioDetailsModal.bigImage}
                     style={{
                       backgroundImage: `url(${portfolioDetailsModal.bigImage})`,
+                      border: '1px', borderStyle: 'solid', borderColor: 'black'
                     }}
                   />
                 </div>
@@ -102,15 +103,16 @@ const DetailsModal = () => {
             {portfolioDetailsModal.images.map((img, i) => (
               <li key={i} className="mb-[30px] float-left w-1/2 pl-[30px]">
                 <div className="list_inner w-full h-auto clear-both float-left relative">
-                  <div className="my_image relative">
+                  <div className="my_image relative" style={{ border: '1px', borderStyle: 'solid', borderColor: 'black' }}>
                     <img
                       className="opacity-0 min-w-full"
-                      src="assets/img/thumbs/4-2.jpg"
+                      src={portfolioDetailsModal.thumbnail}
                       alt="image"
+                      
                     />
                     <div
                       className="main absolute inset-0 bg-no-repeat bg-center bg-cover"
-                      data-img-url="assets/img/portfolio/2.jpg"
+                      data-img-url={img}
                       style={{
                         backgroundImage: `url(${img})`,
                       }}
