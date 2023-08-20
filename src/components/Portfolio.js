@@ -7,7 +7,7 @@ import SectionTitle from "./SectionTitle";
 const detailData = [
   {
     id: 1,
-    thumbnail: "assets/img/portfolio/sonajob/sonajobnapshot_1.png",
+    thumbnail: "assets/img/portfolio/sonajob/sonajobnapshot_1.webp",
     title: "SonaJob",
     text: [
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
@@ -23,12 +23,12 @@ const detailData = [
         link: "https://github.com/Phenix3/job-sympa",
       },
     ],
-    bigImage: "assets/img/portfolio/sonajob/sonajobnapshot_2.png",
-    images: ["assets/img/portfolio/sonajob/sonajobnapshot_4.png", "assets/img/portfolio/sonajob/sonajobnapshot_5.png"],
+    bigImage: "assets/img/portfolio/sonajob/sonajobnapshot_2.webp",
+    images: ["assets/img/portfolio/sonajob/sonajobnapshot_4.webp", "assets/img/portfolio/sonajob/sonajobnapshot_5.webp"],
   },
   {
     id: 2,
-    thumbnail: "assets/img/portfolio/symmobilier/symmobilier_1.png",
+    thumbnail: "assets/img/portfolio/symmobilier/symmobilier_1.webp",
     title: "Ave Simone",
     text: [
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
@@ -59,12 +59,12 @@ const detailData = [
         link: "https://www.linkedin.com/",
       },
     ],
-    bigImage: "assets/img/portfolio/symmobilier/symmobilier_1.png",
-    images: ["assets/img/portfolio/symmobilier/symmobilier_2.png", "assets/img/portfolio/symmobilier/symmobilier_3.png"],
+    bigImage: "assets/img/portfolio/symmobilier/symmobilier_1.webp",
+    images: ["assets/img/portfolio/symmobilier/symmobilier_2.webp", "assets/img/portfolio/symmobilier/symmobilier_3.webp"],
   },
   {
     id: 3,
-    thumbnail: "assets/img/portfolio/symshop/symshop_2.png",
+    thumbnail: "assets/img/portfolio/symshop/symshop_2.webp",
     title: "SymShop",
     text: [
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
@@ -80,12 +80,12 @@ const detailData = [
         link: "https://github.com/Phenix3/symshop",
       },
     ],
-    bigImage: "assets/img/portfolio/symshop/symshop_2.png",
-    images: ["assets/img/portfolio/symshop/symshop_4.png", "assets/img/portfolio/symshop/symshop_5.png"],
+    bigImage: "assets/img/portfolio/symshop/symshop_2.webp",
+    images: ["assets/img/portfolio/symshop/symshop_4.webp", "assets/img/portfolio/symshop/symshop_5.webp"],
   },
   {
     id: 4,
-    thumbnail: "assets/img/portfolio/uma/uma_1.png",
+    thumbnail: "assets/img/portfolio/uma/uma_1.webp",
     title: "UMA",
     text: [
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
@@ -101,12 +101,12 @@ const detailData = [
         link: "https://github.com/Phenix3/uma",
       },
     ],
-    bigImage: "assets/img/portfolio/uma/uma_1.png",
-    images: ["assets/img/portfolio/uma/uma_2.png", "assets/img/portfolio/uma/uma_5.png"],
+    bigImage: "assets/img/portfolio/uma/uma_1.webp",
+    images: ["assets/img/portfolio/uma/uma_2.webp", "assets/img/portfolio/uma/uma_5.webp"],
   },
   {
     id: 5,
-    thumbnail: "assets/img/portfolio/lyclama/screenshot.png",
+    thumbnail: "assets/img/portfolio/lyclama/screenshot.webp",
     title: "Lyclama",
     text: [
       "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
@@ -122,7 +122,7 @@ const detailData = [
         link: "https://github.com/Phenix3/lyclama",
       },
     ],
-    bigImage: "assets/img/portfolio/lyclama/screenshot.png",
+    bigImage: "assets/img/portfolio/lyclama/screenshot.webp",
     images: [],
   },
 ];
@@ -219,12 +219,12 @@ const Portfolio = () => {
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/portfolio/sonajob/sonajobnapshot_1.png"
+                        src="assets/img/portfolio/sonajob/sonajobnapshot_1.webp"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/sonajob/sonajobnapshot_1.png"
+                        data-img-url="assets/img/portfolio/sonajob/sonajobnapshot_1.webp"
                       />
                     </a>
                   </div>
@@ -247,12 +247,12 @@ const Portfolio = () => {
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/portfolio/symmobilier/symmobilier_1.png"
+                        src="assets/img/portfolio/symmobilier/symmobilier_1.webp"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/symmobilier/symmobilier_1.png"
+                        data-img-url="assets/img/portfolio/symmobilier/symmobilier_1.webp"
                       />
                     </a>
                   </div>
@@ -275,12 +275,12 @@ const Portfolio = () => {
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/portfolio/symshop/symshop_2.png"
+                        src="assets/img/portfolio/symshop/symshop_2.webp"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/symshop/symshop_2.png"
+                        data-img-url="assets/img/portfolio/symshop/symshop_2.webp"
                       />
                     </a>
                   </div>
@@ -303,12 +303,12 @@ const Portfolio = () => {
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/portfolio/uma/uma_1.png"
+                        src="assets/img/portfolio/uma/uma_1.webp"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/uma/uma_1.png"
+                        data-img-url="assets/img/portfolio/uma/uma_1.webp"
                       />
                     </a>
                   </div>
@@ -330,12 +330,12 @@ const Portfolio = () => {
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/portfolio/lyclama/screenshot.png"
+                        src="assets/img/portfolio/lyclama/screenshot.webp"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/lyclama/screenshot.png"
+                        data-img-url="assets/img/portfolio/lyclama/screenshot.webp"
                       />
                     </a>
                   </div>
